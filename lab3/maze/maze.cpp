@@ -9,7 +9,6 @@ void simplemaze()
 	mazeinit(&M,a);
 	mazeprint(&M);
 	solution(&M, M.entry, &path);
-	mazeprint(&M);
 }
 
 int main()
